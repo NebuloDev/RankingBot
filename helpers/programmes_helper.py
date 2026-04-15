@@ -19,7 +19,7 @@ programmes = {
         'Computer Science and Engineering (Pre-2026)',
         'TU Delft',
         '<:TUD:555817896203255824>',
-        {2020: 500, 2021: 500, 2022: 500, 2023: 550, 2024: 550, 2025: 550},
+        {2020: 500, 2021: 500, 2022: 500, 2023: 550, 2024: 550, 2025: 550, 2026: 345},
         (15, 6),
         '#1f77b4'
     ),
@@ -112,4 +112,4 @@ def get_programme_choices():
 
 
 def get_year_choices():
-    return list(create_choice(name=str(year), value=year) for year in [2025, 2024, 2023, 2022, 2021, 2020])
+    return list(create_choice(name=str(year), value=year) for year in [2026, 2025, 2024, 2023, 2022, 2021, 2020])
